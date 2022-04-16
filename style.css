@@ -3,23 +3,25 @@
     justify-content: center;
     font-size: 36px;
     font-variant: small-caps;
-    color: gray;
+    background-color: ;
+    color: cornflowerblue;
     font-family:Verdana, Geneva, Tahoma, sans-serif, 'Arial Narrow', Arial, sans-serif
 }
 .body {
     display: flex;
+
     padding: 20px;
     justify-content: center;
     align-items: center;
 }
 .controls{
     display: flex;
-    padding: 50px;
+    padding-right: 10px;
     border-style:double;
     border-color:black;
     border-radius: 12px;
     background-color:lemonchiffon;
-    width:100px;
+    width:150px;
     height: 150px;
     color:black;
 }
@@ -28,8 +30,9 @@
     gap: 9px;
     border-radius: 8px;
     width: 600px;
-    background-color: bisque;
+    background-color: cornflowerblue;
     height: 600px;
     border-style: double;
+    margin-left: 15px;
 
 }
