@@ -3,14 +3,11 @@
     justify-content: center;
     font-size: 36px;
     font-variant: small-caps;
-    background-color: ;
-    color: cornflowerblue;
+    color: black;
     font-family:Verdana, Geneva, Tahoma, sans-serif, 'Arial Narrow', Arial, sans-serif
 }
 .body {
     display: flex;
-
-    padding: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -26,13 +23,24 @@
     color:black;
 }
 .gridbody {
-    display: flex;
-    gap: 9px;
+    display: inline-block;
     border-radius: 8px;
-    width: 600px;
+    width: 700px;
     background-color: cornflowerblue;
-    height: 600px;
+    height: 700px;
     border-style: double;
     margin-left: 15px;
+    flex-flow: wrap;
 
+}
+.inner-box {
+    display:inline-block;
+    width: 38px;
+    height: 38px;
+
+    border-radius: 0px;
+    background-color: white;
+    border-color: black;
+    border-style: double;
+    color: blueviolet;
 }
